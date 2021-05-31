@@ -1,0 +1,22 @@
+.page-not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-not-found h1{
+    font-size: 100px;
+}
+.page-not-found a{
+    text-decoration: none;
+    color: #000;
+    background-color: #556644;
+    padding:10px;
+    color:#fff;
+}
+
+.page-not-found a:hover{
+    opacity: 0.5;
+}

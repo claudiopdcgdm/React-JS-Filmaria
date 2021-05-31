@@ -1,0 +1,40 @@
+#filmes-salvos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+ul{
+    padding: 0;
+
+}
+
+ul li{
+    padding: 0;
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+span{
+    margin-left: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover{
+    color: #fff;
+}
